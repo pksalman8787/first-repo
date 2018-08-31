@@ -1,0 +1,28 @@
+package jack;
+
+
+
+
+public class Event {
+
+    
+    public final  int c;
+    public final String[] b;
+    public final String img;
+    //public final String numOfPeople;
+
+  
+//    public final String perceivedStrength;
+
+   
+   /* public Event(String eventTitle, String eventNumOfPeople, String eventPerceivedStrength) {
+        title = eventTitle;
+        numOfPeople = eventNumOfPeople;
+        perceivedStrength = eventPerceivedStrength;
+    }*/
+    public Event(int cc,String[] a,String v){
+    c=cc;
+    b=a;
+    img=v;
+    }
+}
